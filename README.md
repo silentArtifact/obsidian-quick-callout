@@ -1,2 +1,2 @@
 # obsidian-quick-callout
-Obsidian plugin to allow users to quickly format highlighted text as a specific type of callout.
+Obsidian plugin to allow users to quickly format highlighted text as a specific type of callout. The user highlights text, invokes the plugin, and obsidian requests the user define what type of callout they wish to use. If the user selects "Quote", the plugin presents them a field that will attempt to auto-complete note names they type into it, using a user-defined folder in their vault (within the plugin settings). Then the entered value becomes the title of the quote callout, surrounded by `[[]]` to create a link.
